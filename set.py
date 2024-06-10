@@ -24,7 +24,17 @@ st2 = {'item5', 'item6', 'item7', 'item8'}
 print(st1.update(st2)) # st2 contents are added to st1
 
 
+s = {2, 4, 2, 6}
+print(s)
 
+info = {"Carla", 19, False, 5.9, 19}
+print(info)
+
+harry = set()
+print(type(harry))
+
+for value in info:
+  print(value)
 
 ### Exercises: Level 2
 
